@@ -20,13 +20,25 @@ I'm an enthusiastic and detail-oriented Frontend Software Engineer seeking an en
 * VS Code, IntelliJ IDEA
 * Adobe Photoshop, Illustrator, InDesign
 
+### MY PROJECTS
+* [Portfolio](https://rolling-scopes-school.github.io/vikstasenkova-JSFEPRESCHOOL/portfolio/)
+* [Audio player](https://rolling-scopes-school.github.io/vikstasenkova-JSFEPRESCHOOL/audio-player/)
+* [Random jokes](https://rolling-scopes-school.github.io/vikstasenkova-JSFEPRESCHOOL/random-jokes/)
+* [Tic Tac Toe](https://rolling-scopes-school.github.io/vikstasenkova-JSFEPRESCHOOL/tic-tac/)
+
 ### CODE EXAMPLE
 ```
-function multiply (a, b){
-    return a * b
+function isPrime(num){
+  if (num < 2) return false;
+  const q = Math.sqrt(num);
+  for (let i = 2; i <= q; ++i){
+    if (num % i === 0){
+      return false
+    }
+  }
+  return true
 }
 ```
-
 
 ### EDUCATION
 ***Belarusian National Technical University***
