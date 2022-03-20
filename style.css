@@ -19,7 +19,9 @@ body {
     letter-spacing: 3px;
     font-size: 16px;
     min-width: 381px;
-
+}
+body :visited{
+    color: blue;
 }
 .wrapper {
     min-height: 100%;
@@ -29,7 +31,6 @@ body {
     background-color: rgb(236, 236, 236);
 
 }
-
 .header {
     display: flex;
     align-items: center;
@@ -42,6 +43,9 @@ body {
     flex-wrap: wrap;
     list-style:none
 }
+.nav__list :visited{
+    color: blue;
+}
 .nav__item {
     padding: 10px 10px 10px 10px;
 }
@@ -53,7 +57,6 @@ body {
 .top {
     background-color: rgb(236, 236, 236);
 }
-
 .container {
     max-width: 1080px;
     margin: 0px auto;
@@ -122,7 +125,57 @@ h1 {
     line-height: 25px;
     padding: 10px 0 0 0;
 }
+.project__title{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.projects__img{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+}
+.projects__column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.projects__div{
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+    position: relative;
+    margin-bottom: 60px;
+    /* border-radius: 20px; */
+}
+.projects__div :hover{
+    transform:scale(1.05);
+    z-index: 1;
+}
+/* .projects__text{
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    width: 400px;
+    height: 250px;
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    top: 1250px;
+    /* display: none; */
+    /* opacity: 0.1; */
 
+/* .projects__text.active{
+    transition: all 0.3s ease 0s;
+    opacity: 1;
+    top: 0;
+    width: 400px;
+    height: 250px;
+} */
+/* .projects__title{
+    font-weight: 600;
+    font-size: 35px;
+    text-decoration: underline;
+} */
 .footer {
     background-color: #E3D9C5;
 }
@@ -159,6 +212,10 @@ h1 {
     .header {
         font-size: 12px;
     }
+    /* .projects__img{
+        width: 300px;
+        height: 188px;
+    } */
   }
 
  @media (max-width: 1120px) {
@@ -172,5 +229,9 @@ h1 {
         padding: 50px 0 50px 25px;
         align-content: center;
         justify-content: center;
+    }
+    .projects__img{
+        width: auto;
+        height: 13vh;
     }
 }
