@@ -36,7 +36,7 @@
                             </div>
                             <div class="top__date">
                                 <p>06.01.2001</p>
-                                <p>20 years old</p>
+                                <p>21 years old</p>
                             </div>                           
                        </div>
 
@@ -132,6 +132,33 @@
                                 </div>
                             </div>                            
                         </div>
+                        
+                        <div class="columns__column">
+                            <div class="columns__item item">
+                                <div class="item__row">
+                                    <div class="item__img" >
+                                        <img class="item__tik" src="tik.png" alt="tik">
+                                    </div>
+                                    <div class="item__body">
+                                        <div class="item__title" id="code">CODE EXAMPLE</div>
+                                        <div class="item__text">
+                                            <p>
+                                                function isPrime(num){<br>
+                                                    &nbsp; if (num < 2) return false;<br>
+                                                    &nbsp; const q = Math.sqrt(num);<br>
+                                                    &nbsp; for (let i = 2; i <= q; ++i){<br>
+                                                        &nbsp; &nbsp; if (num % i === 0){<br>
+                                                            &nbsp; &nbsp; &nbsp; return false<br>
+                                                            &nbsp; &nbsp; }<br>
+                                                            &nbsp; }<br>
+                                                    &nbsp; return true<br>
+                                                }  
+                                            </p>                                       
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                            
+                        </div>
                         <div class="columns__column">
                             <div class="columns__item item">
                                 <div class="item__row">
@@ -151,28 +178,6 @@
                                 </div>
                             </div>                            
                         </div>
-                        <div class="columns__column">
-                            <div class="columns__item item">
-                                <div class="item__row">
-                                    <div class="item__img" >
-                                        <img class="item__tik" src="tik.png" alt="tik">
-                                    </div>
-                                    <div class="item__body">
-                                        <div class="item__title" id="code">CODE EXAMPLE</div>
-                                        <div class="item__text">
-                                            <p>
-                                                <code>
-                                                    function multiply (a, b)<br>
-                                                    &nbsp;   return a * b<br>
-                                                    }
-                                                </code>                                                 
-                                            </p>                                       
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>                            
-                        </div>
-
                     </div>
                 </div>
             </div>
@@ -180,42 +185,34 @@
                 <div class="container">
                         <div class="item__title project__title" id="code">MY PROJECTS</div>
                         <div class="item__text projects__column">
-                            <a class="projects__link" href="https://rolling-scopes-school.github.io/vikstasenkova-JSFEPRESCHOOL/portfolio/" target="_blank">
+                            <div class="projects__link">
                                 <div class="projects__div">
-                                    <div class="projects__text">
-                                        <span class="projects__title">PORTFOLIO</span>    
-                                        <p class="click">click</p>
-                                    </div>
-                                    <img class="projects__img" src="./assets/portfolio.PNG" alt="portfolio">
+                                    <a href="https://rolling-scopes-school.github.io/vikstasenkova-JSFEPRESCHOOL/portfolio/" target="_blank">
+                                        <img class="projects__img" src="./assets/portfolio.PNG" alt="portfolio">     
+                                    </a>
                                 </div>    
-                            </a>
-                            <a class="projects__link" href="https://rolling-scopes-school.github.io/vikstasenkova-JSFEPRESCHOOL/audio-player/" target="_blank">
+                            </div>
+                            <div class="projects__link">
                                 <div class="projects__div">
-                                    <div class="projects__text">
-                                        <span class="projects__title">AUDIO PLAYER</span>    
-                                        <p class="click">click</p>
-                                    </div>
-                                    <img class="projects__img" src="./assets/audio.PNG" alt="audio">
+                                    <a href="https://rolling-scopes-school.github.io/vikstasenkova-JSFEPRESCHOOL/audio-player/" target="_blank">
+                                        <img class="projects__img" src="./assets/audio.PNG" alt="audio">
+                                    </a>
                                 </div>    
-                            </a>
-                            <a class="projects__link" href="https://rolling-scopes-school.github.io/vikstasenkova-JSFEPRESCHOOL/random-jokes/" target="_blank">
+                            </div>
+                            <div class="projects__link">
                                 <div class="projects__div">
-                                    <div class="projects__text">
-                                        <span class="projects__title">RANDOM JOKES</span>    
-                                        <p class="click">click</p>
-                                    </div>
-                                    <img class="projects__img" src="./assets/random.PNG" alt="random">
+                                    <a href="https://rolling-scopes-school.github.io/vikstasenkova-JSFEPRESCHOOL/random-jokes/" target="_blank">
+                                        <img class="projects__img" src="./assets/random.PNG" alt="random">    
+                                    </a>
                                 </div>    
-                            </a>
-                            <a class="projects__link" href="https://rolling-scopes-school.github.io/vikstasenkova-JSFEPRESCHOOL/tic-tac/" target="_blank">
+                            </div>
+                            <div class="projects__link">
                                 <div class="projects__div">
-                                    <div class="projects__text">
-                                        <span class="projects__title">TIC TAC TOE</span>    
-                                        <p class="click">click</p>
-                                    </div>
-                                    <img class="projects__img" src="./assets/tic.PNG" alt="tic">
+                                    <a href="https://rolling-scopes-school.github.io/vikstasenkova-JSFEPRESCHOOL/tic-tac/" target="_blank">
+                                        <img class="projects__img" src="./assets/tic.PNG" alt="tic">    
+                                    </a>
                                 </div>    
-                            </a>
+                            </div>
                             
                         </div>
                     </div>
@@ -233,5 +230,6 @@
         </footer>
 
     </div>
+<script src="index.js"></script>   
 </body>
 </html>
